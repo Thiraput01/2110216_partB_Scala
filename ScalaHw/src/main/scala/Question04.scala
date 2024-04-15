@@ -19,6 +19,7 @@ object Question04 {
     val l1 = List(1, 2, 3 ,4 ,5)
     println(palindrome(l))
     println(palindrome(l1))
+    println(palindrome(List()) == true)
   }
 
 

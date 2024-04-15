@@ -16,6 +16,7 @@ object Question03 {
     val l1 = List()
     val l2 = List(2, 5, 4, 3, 1, 2)
     println(subList(l1, l2))
+    println(subList(List("R", "B", "X", "R"), List("B", "X", "R")) == true)
   }
 
 }

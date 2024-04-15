@@ -12,6 +12,7 @@ object Question07 {
   def main(args: Array[String]): Unit = {
     println(myMap(x => x*2)(List(1, 2, 3, 4, 5)))
     println(myMap(sqpuare)(List(1, 2, 3, 4, 5)))
+    println(myMap(x => x * 2)(List()) == List())
   }
 
 }

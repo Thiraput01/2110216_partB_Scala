@@ -17,6 +17,7 @@ object Question10 {
     println(alternate((x, y) => x + y, (x, y) => x - y, List(1, 2, 3, 4)))
     println(alternate((x, y) => x + y, (x, y) => x - y, List(1, 2, 3, 4, 5)))
     println(alternate((x, y) => x + y, (x, y) => x - y, List(1, 2, 3, 4, 5, 6)))
+    println(alternate((x, y) => x + y, (x, y) => x - y, List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)))
   }
 
 
