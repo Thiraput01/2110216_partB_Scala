@@ -2,7 +2,6 @@ import scala.annotation.tailrec
 
 object Question6 {
 
-
   def moreThanHalf(l1:List[Any],l2:List[Any]):Boolean ={
     val half: Float = l1.length.toFloat / 2
     val c = countMember(l1, l2, 0)
