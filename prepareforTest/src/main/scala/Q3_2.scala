@@ -11,6 +11,7 @@ object Q3_2 {
 
   }
 
+  @tailrec
   def rep(l: List[Int], pos: Int, i: Int, data: Int, acc: List[Int]): List[Int] ={
     if(l.isEmpty) acc
     else if(i == pos) rep(l.tail, pos, i+1, data, acc++List(data))

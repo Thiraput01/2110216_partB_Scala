@@ -29,3 +29,4 @@ object Q1_2 {
     println(indivOp(l1, l2, l3, List()))
   }
 }
+
